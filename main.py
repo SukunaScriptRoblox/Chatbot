@@ -2,6 +2,7 @@ from discord.ext import commands
 import discord
 import os
 import random
+from keep_alive import keep_alive  # ✅ ye hona chahiye
 
 intents = discord.Intents.default()
 intents.messages = True
